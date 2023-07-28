@@ -1,5 +1,7 @@
 package main;
 
+import org.mariuszgromada.math.mxparser.*;
+
 import dialogwindowmodule.DialogWindowModule;
 import dialogwindowmodule.InputDialog;
 import framemodule.MainFrame;
@@ -14,7 +16,17 @@ public class Main {
 		// new InputDialog();
 
 		// jframe
-		new MainFrame();
+		// new MainFrame();
+
+
+
+
+
+
+		// for calculator project
+		// Expression e = new Expression("sin(pi/2)");
+		// double x  = e.calculate();
+		// System.out.println(x);
 
 	}
 
