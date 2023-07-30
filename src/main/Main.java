@@ -2,9 +2,11 @@ package main;
 
 import org.mariuszgromada.math.mxparser.*;
 
+import buttonmodule.ButtonModule;
 import dialogwindowmodule.DialogWindowModule;
 import dialogwindowmodule.InputDialog;
 import framemodule.MainFrame;
+import textfieldmodule.TextFieldModule;
 
 public class Main {
 
@@ -17,6 +19,9 @@ public class Main {
 
 		// jframe
 		// new MainFrame();
+
+		// new TextFieldModule();
+		new ButtonModule();
 
 
 
